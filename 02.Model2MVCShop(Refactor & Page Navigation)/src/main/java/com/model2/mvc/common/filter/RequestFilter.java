@@ -11,9 +11,9 @@ import javax.servlet.ServletResponse;
 
 
 /*
- * javax.servlet.Fiter  ¸¦ ±¸ÇöÇÑ  Filter
+ * javax.servlet.Fiter  ë¥¼ êµ¬í˜„í•œ  Filter
  * 
- * Servlet Meta-data ÀÎ web.xml ¿¡ ¾Æ·¡¿Í °°ÀÌ µî·Ï
+ * Servlet Meta-data ì¸ web.xml ì— ì•„ë˜ì™€ ê°™ì´ ë“±ë¡
     <filter>
 		<filter-name>requestFilter</filter-name>
 		<filter-class>com.model2.mvc.common.filter.RequestFilter</filter-class>
@@ -24,7 +24,7 @@ import javax.servlet.ServletResponse;
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 *   
-*   ¸ğµç URI Áï ¸ğµç request ´Â ÇÊÅÍ¸¦ Åë°úÇÏ°ÔÇÏ¿© ÇÑ±ÛÃ³¸® 
+*   ëª¨ë“  URI ì¦‰ ëª¨ë“  request ëŠ” í•„í„°ë¥¼ í†µê³¼í•˜ê²Œí•˜ì—¬ í•œê¸€ì²˜ë¦¬ 
  */
 public class RequestFilter implements Filter{
 
